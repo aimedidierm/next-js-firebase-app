@@ -4,7 +4,8 @@ import type { NextPage } from 'next'
 import Head from "next/head";
 import { useState } from 'react';
 import { firestore } from '../firebase/clientApp';
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+import '../styles/global.css';
 
 const AddCategory: NextPage = () => {
 

@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import { firestore } from '../firebase/clientApp';
 import styles from '../styles/Home.module.css';
+import '../styles/global.css';
 
 interface Category {
     id: string;
@@ -98,7 +99,7 @@ const UpdateCategory: NextPage = () => {
                         />
                     </div>
                     <div className={styles.formGroup}>
-                        <button type="submit">Submit</button>
+                        <button type="submit" className={styles.update}>Submit</button>
                     </div>
                 </form>
             </div>

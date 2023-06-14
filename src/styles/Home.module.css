@@ -157,6 +157,18 @@
   text-decoration: underline;
 }
 
+.update {
+  color: white;
+  background-color: green;
+  border-color: green;
+}
+
+.delete {
+  color: white;
+  background-color: red;
+  border-color: red;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
